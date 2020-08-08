@@ -9,6 +9,7 @@ body {
 
 section ul{
     list-style: none;
+    text-decoration: overline;
 }
 
 a{
