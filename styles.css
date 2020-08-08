@@ -1,15 +1,14 @@
-@charset "utf-8"
-
-
 body {
-    margin: 0px;
-    padding: 0px;
-}
+    color: #333333;
+    margin-top: 1rem;
+    background-color: #f2faf6
+  }
+  
 
 
 section ul{
     list-style: none;
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 a{
@@ -86,7 +85,7 @@ nav ul li a{
 .bio-container{
     width: 90%;
     border-radius: 4px;
-    background-color: ivory;
+    background-color: #f2faf6;
     margin: auto auto auto auto;
 
 }
@@ -110,25 +109,21 @@ nav ul li a{
 .projects-container{
     width: 70%;
     height: auto;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f2faf6;
+    box-shadow: 0.1px 1px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     margin: auto auto auto auto;
     position: relative;
-    top: 3vh;
 }
 
 .hobby-container{
-    width: 30%;
+    width: 70%;
     height: auto;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f2faf6;
+    box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     margin: auto auto auto auto;
     position: relative;
-    top: 5vh;
 }
 
 
@@ -139,7 +134,6 @@ nav ul li a{
     height: auto;
     margin: auto auto auto auto;
     position: relative;
-    top: -4vh;
     left: 5%;
 }
 
