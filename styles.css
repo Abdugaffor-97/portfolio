@@ -223,6 +223,23 @@ span.site{
     cursor: pointer;
 }
 
+@media (max-width:400px) {
+    .media ul li{
+
+        position: relative;
+        display: block;
+        color: #666;
+        font-size: 30px;
+        height: 30px;
+        width: 30px;
+        background: #171515;
+        line-height: 50px;
+        margin: 0 25px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
 .media li:before{
     position: absolute;
     content: '';
