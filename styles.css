@@ -1,8 +1,8 @@
 body {
     color: #333333;
     margin-top: 1rem;
-    background-color: #f2faf6
-  }
+    background-color: #f2faf6;
+}
   
 
 
@@ -27,6 +27,13 @@ section{
 @media (min-width: 700px) {
     section nav ul{
         display: flex;
+    }
+}
+
+@media (max-width:800px) {
+    .bio-container img{
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -170,7 +177,7 @@ nav ul li a{
     position: absolute;
     top: 7px;
     border: none;
-  }
+}
   
   .contacts li a span {
     display: block;
@@ -178,9 +185,69 @@ nav ul li a{
     padding-right: 7px;
     overflow: hidden;
     width: 70px; 
-  }
+}
 
 span.site{ 
     font-size: 14px;
     line-height: 20px;
+}
+
+.media *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.media ul{
+    display: flex;
+}
+
+
+.media ul li{
+    top: 1vh;
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    background: #171515;
+    line-height: 60px;
+    margin: 0 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.media li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #d35400;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: .3s;
+}
+
+.media li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #d35400;
+}
+
+.media li:hover{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+
 }
