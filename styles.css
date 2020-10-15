@@ -3,20 +3,17 @@ body {
     margin-top: 1rem;
     background-color: #f2faf6;
 }
-  
 
-
-section ul{
+section ul {
     list-style: none;
     text-decoration: underline;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-
-section{
+section {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -25,29 +22,25 @@ section{
 }
 
 @media (min-width: 700px) {
-    section nav ul{
+    section nav ul {
         display: flex;
     }
 }
 
-@media (max-width:800px) {
-    .bio-container img{
+@media (max-width: 800px) {
+    .bio-container img {
         height: 100%;
         width: 100%;
     }
 }
 
-
-
-
-section nav img{
+section nav img {
     border-radius: 8px;
 }
 
-
-nav{
+nav {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     align-items: center;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
@@ -55,49 +48,43 @@ nav{
     background-color: rgba(51, 189, 104, 0.911);
 }
 
-
-
-nav ul li a{
+nav ul li a {
     margin: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #272727;
     font-size: 15px;
     font-weight: 700;
 }
 
-
-.text-container p:nth-child(1){
+.text-container p:nth-child(1) {
     font-family: calibri;
     font-weight: bold;
     color: rgb(41, 54, 41);
     font-size: 110%;
 }
 
-.text-container p:nth-child(2){
-    font-family: Cambria;   
+.text-container p:nth-child(2) {
+    font-family: Cambria;
     font-weight: bold;
     letter-spacing: 0.5px;
     color: black;
 }
 
-
-.text-container{
+.text-container {
     position: relative;
     left: 40px;
     line-height: 0.1;
-
 }
 
-
-.bio-container{
+.bio-container {
     width: 90%;
     border-radius: 4px;
     background-color: #f2faf6;
     margin: auto auto auto auto;
-
 }
 
-.tech-container{
+.tech-container {
     width: 80%;
     height: auto;
     border-radius: 20px;
@@ -105,15 +92,12 @@ nav ul li a{
     margin: auto auto auto auto;
 }
 
-
-.columns-2{
+.columns-2 {
     column-count: 2;
     line-height: 1.6;
 }
 
-
-
-.projects-container{
+.projects-container {
     height: auto;
     background-color: #f2faf6;
     box-shadow: 0.1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -122,7 +106,7 @@ nav ul li a{
     position: relative;
 }
 
-.hobby-container{
+.hobby-container {
     height: auto;
     background-color: #f2faf6;
     box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.2);
@@ -131,8 +115,7 @@ nav ul li a{
     position: relative;
 }
 
-
-.contacts{
+.contacts {
     padding: 40px;
     font-size: 30px;
     width: auto;
@@ -142,14 +125,12 @@ nav ul li a{
     left: 5%;
 }
 
-
-
-.contacts ul{
+.contacts ul {
     list-style-type: none;
     display: block;
 }
 
-.contacts li a{
+.contacts li a {
     border: none;
     background-color: grey;
     color: #424242;
@@ -163,7 +144,7 @@ nav ul li a{
     text-decoration: none;
 }
 
-.contacts li a:hover{
+.contacts li a:hover {
     border: 1px solid #b4b7bb;
 }
 
@@ -176,39 +157,38 @@ nav ul li a{
     top: 7px;
     border: none;
 }
-  
-  .contacts li a span {
+
+.contacts li a span {
     display: block;
     height: 22px;
     padding-right: 7px;
     overflow: hidden;
-    width: 70px; 
+    width: 70px;
 }
 
-span.site{ 
+span.site {
     font-size: 14px;
     line-height: 20px;
 }
 
-.media *{
+.media * {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.media{
+.media {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.media ul{
+.media ul {
     display: flex;
 }
 
-
-.media ul li{
+.media ul li {
     top: 1vh;
     position: relative;
     display: block;
@@ -223,9 +203,8 @@ span.site{
     cursor: pointer;
 }
 
-@media (max-width:400px) {
-    .media ul li{
-
+@media (max-width: 400px) {
+    .media ul li {
         position: relative;
         display: block;
         color: #666;
@@ -240,9 +219,9 @@ span.site{
     }
 }
 
-.media li:before{
+.media ul li:before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     background: #d35400;
@@ -251,17 +230,21 @@ span.site{
     border-radius: 50%;
     z-index: -1;
     transform: scale(0.9);
-    transition: .3s;
+    transition: 0.3s;
 }
 
-.media li:hover:before{
+.media li:hover:before {
     filter: blur(3px);
     transform: scale(1.15);
     box-shadow: 0 0 15px #d35400;
 }
 
-.media li:hover{
+.media li:hover {
     color: #ffa502;
     box-shadow: 0 0 15px #d35400;
     text-shadow: 0 0 15px #d35400;
+}
+
+.social-icons {
+    color: #5b51f3;
 }
